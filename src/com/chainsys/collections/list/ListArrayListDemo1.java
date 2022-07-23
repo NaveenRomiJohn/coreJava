@@ -18,7 +18,7 @@ public class ListArrayListDemo1 {
 		{
 			for(int i=0; i<5; i++)
 			{
-				Emp e1=new Emp(i);
+				Emp e1=new Emp(i, null);
 				e1.Name="Emp"+i;
 				empArrayList.add(e1);
 			}
@@ -26,7 +26,7 @@ public class ListArrayListDemo1 {
 			Emp e3=(Emp) empArrayList.get(4);
 			empArrayList.add(e3);
 			System.out.println("Size of empArrayList after additions: "+empArrayList.size());
-			Emp e4=new Emp();
+			Emp e4=new Emp(0, null);
 			e4.Name="Elon Musk";
 			empArrayList.add(e4);
 			System.out.println("Freq of [Emp Id-4] in ArrayList- "+ Collections.frequency(empArrayList, e3));

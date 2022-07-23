@@ -24,6 +24,6 @@ public class VectorDemo {
 			System.out.println("Vector contains 3.");
 		Enumeration<Integer> vEnum=v.elements();
 		System.out.println("\nElements in Vector:");
-		while(vEnum.hasMoreElements())
+		//while(vEnum.hasMoreElements())
 	}
 }

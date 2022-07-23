@@ -1,6 +1,7 @@
 package com.chainsys.entrypoint;
 
 import com.chainsys.unittest.VariableTester;
+import com.chainsys.bestPractices.sam.SamLessons;
 import com.chainsys.collections.Comparable.ComparableDemo;
 import com.chainsys.collections.list.ListArrayListDemo;
 import com.chainsys.collections.map.MapHashMapDemo;
@@ -38,20 +39,6 @@ public class StartUp {
 	*/
 	public static void main(String[] args) 
 	{
-		/*
-		 * TestBank.TestBranch(); System.out.println(); TestBank.TestCustomer();
-		 * System.out.println(); TestBank.TestBankEmployee(); System.out.println();
-		 * TestBank.customerAccountDetails();
-		 */
-		//ScorecardTester.testMatch();
-		//TestAbstraction.testDemoB();
-		//DemoAChild.testDemoA();
-		//TestShape.testPolymorphism();
-		//TestVehicle.testVehicle();
-		//ShapeAPrivateConstructor.getobject();
-		//ListArrayListDemo.usingStringArrayList();
-		//MapHashMapDemo.usingGenericMapDemoA();
-		//ComparableDemo.sortComparable();
-		
+		SamLessons.demoA();
 	}
 }

@@ -9,7 +9,7 @@ public class SetHashSetDemo
 {
 	public static void main(String args[])
 	{
-		demoB();
+		//demoB();
 	}
 	public static void demoA()
 	{
@@ -31,26 +31,26 @@ public class SetHashSetDemo
 			System.out.println(set_itr.next()+ "-");
 		}
 	}
-	public static void demoB()
-	{
-		HashSet<Emp> hs=new HashSet<Emp>();
-		Emp e1=null;
-		for(int i=0; i<10;i++)
-		{
-			e1=new Emp(i);
-			e1.Name="Emp "+i;
-			hs.add(e1);
-		}
-		System.out.println("Count "+hs.size());
-		e1=new Emp(9);
-		hs.add(e1);
-		System.out.println("Count "+hs.size());
-		
-		Iterator itr=hs.iterator();
-		while(itr.hasNext())
-		{
-			Emp e2=(Emp) itr.next();
-			System.out.println(e2.getID() +" "+e2.Name);
-		}
-	}
+//	public static void demoB()
+//	{
+//		HashSet<Emp> hs=new HashSet<Emp>();
+//		Emp e1=null;
+//		for(int i=0; i<10;i++)
+//		{
+//			e1=new Emp(i);
+//			e1.Name="Emp "+i;
+//			hs.add(e1);
+//		}
+//		System.out.println("Count "+hs.size());
+//		e1=new Emp(9);
+//		hs.add(e1);
+//		System.out.println("Count "+hs.size());
+//		
+//		Iterator itr=hs.iterator();
+//		while(itr.hasNext())
+//		{
+//			Emp e2=(Emp) itr.next();
+//			System.out.println(e2.getID() +" "+e2.Name);
+//		}
+//	}
 }

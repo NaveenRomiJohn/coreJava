@@ -25,20 +25,20 @@ public class FileWriter
 	   
 	    try
 	    {
-	    	fw = new FileWriter(fname);
+	    	fw = new FileWriter();
 	    	for (int i=0; i < buffer.length; i++) 
 	    	{    
-	    		fw.write(buffer[i]);
+	    		//fw.write(buffer[i]);
 	        }
 	        	System.out.println("Data Saved");
-	        } 
+	    } 
 	    catch (Exception err)
 	    {
 	        err.printStackTrace();
 	    }
 	    finally
 	    {
-	        fw.close();
+	        //fw.close();
 	     }
 }
 }
